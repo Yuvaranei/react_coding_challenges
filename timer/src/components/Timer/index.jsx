@@ -36,12 +36,13 @@ export default function Timer(){
         }
     }, [startTimer, pause]);
 
-    const minutes = Math.floor(timerCount/60);
-    const seconds = timerCount%60;
+    const hours = Math.floor(timerCount/(60*60)).toString().padStart(2, '0');
+    const minutes = Math.floor((timerCount%(60*60))/60).toString().padStart(2, '0');
+    const seconds = Math.floor((timerCount%(60*60))%60).toString().padStart(2, '0');
     return (
         <>
             <input type="number" onChange={(e) => setTimerCount(e.target.value)} value={timerCount}/>
-            <div>{minutes}:{seconds}</div>
+            <div>{hours}:{minutes}:{seconds}</div>
             <button onClick={() => setStartTimer(true)}>Start</button>
             <button onClick={() => updatePause(true)}>Pause</button>
             <button onClick={() => updatePause(false)}>Resume</button>
