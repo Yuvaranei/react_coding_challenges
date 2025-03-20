@@ -1,0 +1,18 @@
+.themeButtons{
+    // display: in;
+}
+
+.app-container{
+    width: 100vh;
+    height: 100vh;  
+}
+
+.button-light, .app-light, .input-light, .msg-light{
+    background-color: white;
+    color: black
+}
+
+.button-dark, .app-dark, .input-dark, .msg-dark{
+    background-color: black;
+    color: white
+}
