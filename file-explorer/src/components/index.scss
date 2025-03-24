@@ -1,0 +1,31 @@
+.main-icons {
+    display: flex;
+    height: 30px;
+    align-items: center;
+    gap: 15px;
+}
+
+.main-folder{
+    display: flex;
+    height: 30px;
+    align-items: center;
+    gap: 15px;
+}
+
+.app-container {
+    // display: flex;
+    width: 500px;
+    height: 80vh;
+    border: 1px solid;
+}
+
+.icons {
+    font-size: 30px;;
+}
+
+.main-section{
+    padding: 15px 5px;
+    border-bottom: 1px solid;
+    display: flex;
+    justify-content: space-between;
+}
