@@ -1,0 +1,29 @@
+body {
+    font-family: sans-serif;
+  }
+  
+  .container {
+    border: 1px solid;
+    width: 400px;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .list-item {
+    margin: 5px 0;
+  }
+  
+  .left-content,
+  .right-content {
+    border: 1px solid;
+    width: 170px;
+  }
+  
+  .control-buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+  }
+  
