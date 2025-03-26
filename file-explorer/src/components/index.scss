@@ -29,3 +29,14 @@
     display: flex;
     justify-content: space-between;
 }
+
+.folder-container {
+    text-align: left;
+    padding: 10px;
+}
+
+.folder-info{
+    display: flex;
+    // justify-content: space-evenly;
+    gap: 50px;
+}

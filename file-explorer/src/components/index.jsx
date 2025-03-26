@@ -3,6 +3,9 @@ import { AiOutlineFileAdd } from "react-icons/ai";
 import { AiOutlineFolderAdd } from "react-icons/ai";
 import { VscCollapseAll } from "react-icons/vsc";
 import './index.scss';
+import Folder from "./Folder";
+import { structure } from "../model";
+import Explorer from "./Explorer";
 
 export function FolderStructure(){
     return (
@@ -19,6 +22,7 @@ export function FolderStructure(){
                         <VscCollapseAll className="icons" size={'30px'}/>
                     </div>
                 </div>
+                <Explorer data={structure}/>
         </div>
     )
 }

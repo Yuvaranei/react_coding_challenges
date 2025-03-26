@@ -1,16 +1,16 @@
-const type = Object.freeze({
+export const type = Object.freeze({
     FILE: 'file',
     FOLDER: 'folder'
 });
 
-export const structure = {
-    html: {
-        file1: {type: type.FILE},
-        folder1: {
-            type: type.FOLDER,
-            value: {
-                file2: {type: type.FILE}
-            }
-        }
-    }
-}
+export const structure = [{
+    type: type.FOLDER, 
+    name: 'main',
+     content:[
+    {type: type.FILE, name: 'filename', content: ''},
+    {type: type.FOLDER, name: 'html', content: [
+        {type: type.FILE, name: 'basics', content: ''}
+    ]}
+]}]
+
+
