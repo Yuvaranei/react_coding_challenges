@@ -3,14 +3,21 @@ export const type = Object.freeze({
     FOLDER: 'folder'
 });
 
-export const structure = [{
-    type: type.FOLDER, 
-    name: 'main',
-     content:[
-    {type: type.FILE, name: 'filename', content: ''},
-    {type: type.FOLDER, name: 'html', content: [
-        {type: type.FILE, name: 'basics', content: ''}
-    ]}
-]}]
-
-
+export const data = [
+    {
+        name: 'explorer',
+        children: [ {
+            name: 'file1.txt'
+        }, {
+            name: 'folder1',
+            children: [
+                {
+                    name: 'file2.txt'
+                }
+            ]
+        },{
+            name: 'abc.txt'
+        }]
+    }
+   ]
+  

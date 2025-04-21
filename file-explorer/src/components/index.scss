@@ -1,42 +1,32 @@
-.main-icons {
-    display: flex;
-    height: 30px;
-    align-items: center;
-    gap: 15px;
+.folder-container {
+    padding-left: 10px;
 }
 
-.main-folder{
+.folder-name-section{
     display: flex;
-    height: 30px;
+    justify-content: center;
     align-items: center;
-    gap: 15px;
+    gap: 10px;
 }
 
-.app-container {
-    // display: flex;
-    width: 500px;
-    height: 80vh;
+.expand-collapse-icon{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
     border: 1px solid;
+    border-top: 0;
+    border-left: 0;
+    transform: rotate(-45deg);
 }
 
-.icons {
-    font-size: 30px;;
-}
-
-.main-section{
-    padding: 15px 5px;
-    border-bottom: 1px solid;
+.folder-title-section{
     display: flex;
     justify-content: space-between;
+    // border-bottom: 1px solid;
 }
 
-.folder-container {
-    text-align: left;
-    padding: 10px;
-}
-
-.folder-info{
+.folder-controls {
     display: flex;
-    // justify-content: space-evenly;
-    gap: 50px;
+    align-items: center;
+    gap: 7px;
 }
