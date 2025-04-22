@@ -1,0 +1,19 @@
+.product-wrapper{
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.product-container {
+  width: 250px;
+  border: 1px solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.product-img{
+  width: 100px;
+  height: 100px;
+  background-color: white;
+}
