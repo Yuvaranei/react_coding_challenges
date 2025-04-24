@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1745508014139" clover="3.2.0">
+  <project timestamp="1745508014139" name="All files">
+    <metrics statements="54" coveredstatements="54" conditionals="8" coveredconditionals="7" methods="26" coveredmethods="26" elements="88" coveredelements="87" complexity="0" loc="54" ncloc="54" packages="2" files="3" classes="3"/>
+    <package name="src">
+      <metrics statements="19" coveredstatements="19" conditionals="4" coveredconditionals="4" methods="15" coveredmethods="15"/>
+      <file name="App.jsx" path="/Users/yuvaranei/Documents/coding/react_coding_challenges/cart/src/App.jsx">
+        <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="5"/>
+        <line num="7" count="5" type="stmt"/>
+        <line num="9" count="2" type="stmt"/>
+        <line num="11" count="2" type="stmt"/>
+        <line num="13" count="2" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="17" count="2" type="stmt"/>
+        <line num="20" count="6" type="stmt"/>
+      </file>
+      <file name="cart.jsx" path="/Users/yuvaranei/Documents/coding/react_coding_challenges/cart/src/cart.jsx">
+        <metrics statements="12" coveredstatements="12" conditionals="4" coveredconditionals="4" methods="10" coveredmethods="10"/>
+        <line num="6" count="18" type="stmt"/>
+        <line num="7" count="35" type="stmt"/>
+        <line num="8" count="18" type="stmt"/>
+        <line num="12" count="18" type="stmt"/>
+        <line num="14" count="18" type="stmt"/>
+        <line num="15" count="18" type="stmt"/>
+        <line num="20" count="14" type="stmt"/>
+        <line num="23" count="1" type="stmt"/>
+        <line num="25" count="1" type="stmt"/>
+        <line num="26" count="1" type="stmt"/>
+        <line num="33" count="1" type="stmt"/>
+        <line num="34" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.reducers">
+      <metrics statements="35" coveredstatements="35" conditionals="4" coveredconditionals="3" methods="11" coveredmethods="11"/>
+      <file name="cart.reducer.js" path="/Users/yuvaranei/Documents/coding/react_coding_challenges/cart/src/reducers/cart.reducer.js">
+        <metrics statements="35" coveredstatements="35" conditionals="4" coveredconditionals="3" methods="11" coveredmethods="11"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="11" count="2" type="stmt"/>
+        <line num="17" count="2" type="stmt"/>
+        <line num="24" count="2" type="stmt"/>
+        <line num="30" count="2" type="stmt"/>
+        <line num="31" count="9" type="stmt"/>
+        <line num="32" count="9" type="stmt"/>
+        <line num="33" count="8" type="stmt"/>
+        <line num="34" count="8" type="stmt"/>
+        <line num="36" count="9" type="stmt"/>
+        <line num="39" count="2" type="stmt"/>
+        <line num="50" count="6" type="stmt"/>
+        <line num="51" count="6" type="stmt"/>
+        <line num="52" count="6" type="stmt"/>
+        <line num="53" count="6" type="cond" truecount="2" falsecount="0"/>
+        <line num="54" count="4" type="stmt"/>
+        <line num="56" count="2" type="stmt"/>
+        <line num="58" count="6" type="stmt"/>
+        <line num="61" count="1" type="stmt"/>
+        <line num="62" count="1" type="stmt"/>
+        <line num="63" count="1" type="stmt"/>
+        <line num="65" count="1" type="stmt"/>
+        <line num="68" count="1" type="stmt"/>
+        <line num="69" count="1" type="stmt"/>
+        <line num="70" count="1" type="stmt"/>
+        <line num="71" count="1" type="stmt"/>
+        <line num="74" count="1" type="stmt"/>
+        <line num="75" count="1" type="stmt"/>
+        <line num="76" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="77" count="1" type="stmt"/>
+        <line num="78" count="1" type="stmt"/>
+        <line num="82" count="1" type="stmt"/>
+        <line num="83" count="1" type="stmt"/>
+        <line num="88" count="2" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>

@@ -3,11 +3,11 @@ import {useSelector, useDispatch} from 'react-redux';
 import { applyDiscount, decreaseQuantity, increaseQuantity, removeItemFromCart } from './reducers/cart.reducer';
 
 export default function Cart({}){
-
+    console.log("cartData...", cartData);
     const {cartData, totalPrice, finalPrice} = useSelector((state) => state.cart);
     const dispatch = useDispatch();
 
-    console.log("Final price", finalPrice);
+  
 
     const [discount, setValue] = useState('');
 

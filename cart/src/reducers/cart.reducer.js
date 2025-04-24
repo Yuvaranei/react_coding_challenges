@@ -1,6 +1,6 @@
 import {createSlice} from '@reduxjs/toolkit';
 
-const productInfo = new Map();
+export const productInfo = new Map();
 
 productInfo.set('prod1',{
     name: 'Product 1',

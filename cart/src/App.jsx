@@ -1,6 +1,3 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 import {useSelector, useDispatch} from 'react-redux';
 import Cart from './cart';
@@ -11,7 +8,7 @@ function App() {
 
   const dispatch = useDispatch();
 
-  const products = productInfo.values();
+  const products = [...productInfo.values()];
 
   const addToCart = (productId, quantity) => {
     dispatch(addItemToCart({productId, quantity }));
